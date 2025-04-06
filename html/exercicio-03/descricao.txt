@@ -1,0 +1,17 @@
+Objetivo:
+Criar um site com navegação entre páginas.
+
+Requisitos:
+Criar uma página inicial (index.html) contendo:
+Um título da página.
+Uma breve descrição do site.
+Links para outras páginas do site.
+Criar duas páginas adicionais:
+          -  sobre.html → Deve conter um texto explicando sobre o site.
+          - contato.html → Deve conter um formulário com os campos:
+                  - Nome.
+                  - E-mail.
+                  - Mensagem.
+                  - Botão de envio.
+
+Todas as páginas devem ter um menu de navegação com links para as demais páginas.

@@ -1,0 +1,15 @@
+Você vai criar um sistema que:
+
+Receber uma lista de alunos com nome, idade e notas.
+
+Calcular a média de cada aluno.
+
+Classificar o aluno como:
+
+"Aprovado" se a média for maior ou igual a 7.
+
+"Recuperação" se estiver entre 5 e 6.9.
+
+"Reprovado" se for menor que 5.
+
+Exibir um relatório com nome, média e status.

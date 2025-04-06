@@ -1,0 +1,26 @@
+Objetivo
+Criar um sistema web que permita o cadastro de itens e a exibição dos itens cadastrados usando HTML, CSS e JavaScript. O armazenamento dos dados deve ser feito no localStorage do navegador.
+
+
+Requisitos
+Página de Cadastro (index.html)
+
+Deve conter um formulário com os seguintes campos:
+Nome do item (campo de texto).
+Preço do item (campo numérico).
+Um botão para cadastrar o item.
+Um link para acessar a página de listagem dos itens.
+
+Ao cadastrar um item, ele deve ser salvo no localStorage do navegador.
+
+Após o cadastro, um alerta deve ser exibido informando que o item foi salvo com sucesso.
+
+Página de Listagem (list.html)
+
+Deve conter uma tabela com duas colunas:
+Nome do item.
+Preço do item.
+
+A tabela deve ser preenchida automaticamente com os itens cadastrados no localStorage.
+
+Um link para retornar à página de cadastro.

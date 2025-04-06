@@ -1,0 +1,26 @@
+Objetivo: 
+
+Criar uma página HTML com um campo de nome e um botão. Ao clicar no botão, uma saudação deve ser exibida, com o script em um arquivo .js separado.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Saudação</title>
+</head>
+<body>
+  <h2>Digite seu nome:</h2>
+  <input type="text" id="nome">
+  <button id="btnSaudar">Saudar</button>
+  <p id="mensagem"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+// script.js
+
+document.getElementById('btnSaudar').addEventListener('click', function () {
+  const nome = document.getElementById('nome').value;
+  const mensagem = Olá, ${nome}! Seja bem-vindo(a)!;
+  document.getElementById('mensagem').textContent = mensagem;
+});

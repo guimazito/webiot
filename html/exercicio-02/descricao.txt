@@ -1,0 +1,13 @@
+Objetivo:
+Criar uma tabela para exibir produtos.
+
+Requisitos:
+Criar uma página HTML contendo uma tabela com as seguintes colunas:
+Nome do produto.
+Categoria.
+Preço.
+Adicionar pelo menos cinco produtos na tabela.
+
+O primeiro item da tabela deve ser um cabeçalho identificando cada coluna.
+
+A última linha deve conter um rodapé informando o total de produtos listados.

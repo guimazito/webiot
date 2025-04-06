@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/main.css">
+    <script type="text/javascript" src="static/js/main.js" defer></script>
+    <title>Cadastro de Itens</title>
+</head>
+
+<header style="display: flex; justify-content: space-between;">
+    <div>
+        <a href="index.html"><img src="static/image/house-solid.svg" alt="cart" style="width: 20px;" height="20px"></a>       
+    </div>
+    <div>
+        <a href="list.html" style="margin-left: 10px; text-decoration: none;">Lista Completa</a>
+    </div>    
+</header>
+
+<body>
+    <div class="form-direction">
+        <form class="form-template">
+            <label>Nome</label>
+            <input id="name" style="margin: 2px;" required/>
+    
+            <br>
+    
+            <label>Preço</label>
+            <input id="price" style="margin: 2px;" required/>
+    
+            <br>
+    
+            <input type="submit" id="submitButton" class="form-button" value="Cadastrar">
+        </form>
+    </div>   
+
+</body>
+</html>

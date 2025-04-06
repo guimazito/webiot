@@ -1,0 +1,11 @@
+Objetivo:
+Criar um formulário simples para o cadastro de usuários.
+
+Requisitos:
+Criar uma página HTML com um formulário de cadastro contendo:
+Campo para nome (input de texto).
+Campo para e-mail (input do tipo email).
+Campo para senha (input do tipo password).
+Campo para data de nascimento (input do tipo date).
+Botão para enviar os dados.
+Adicionar um link para outra página chamada sucesso.html, que informará que o cadastro foi realizado com sucesso.
