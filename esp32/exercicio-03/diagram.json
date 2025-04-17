@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "author": "Claudio Albano Guimaraes",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+      { "type": "wokwi-led", "id": "led1", "top": -138, "left": 99.8, "attrs": { "color": "red" } },
+      {
+        "type": "wokwi-resistor",
+        "id": "r1",
+        "top": -52.8,
+        "left": 95.45,
+        "rotate": 90,
+        "attrs": { "value": "220" }
+      },
+      { "type": "wokwi-potentiometer", "id": "pot1", "top": 248.3, "left": 163, "attrs": {} }
+    ],
+    "connections": [
+      [ "led1:A", "r1:1", "red", [ "v0" ] ],
+      [ "led1:C", "uno:GND.1", "black", [ "v0" ] ],
+      [ "r1:2", "uno:13", "red", [ "h0" ] ],
+      [ "pot1:GND", "uno:GND.2", "black", [ "v19.2", "h-38.4", "v-115.2", "h19.2" ] ],
+      [ "pot1:VCC", "uno:5V", "red", [ "v28.8", "h-68", "v-134.4", "h19.2" ] ],
+      [ "pot1:SIG", "uno:A1", "green", [ "v19.2", "h47.6", "v-96", "h-28.8" ] ]
+    ],
+    "dependencies": {}
+  }
